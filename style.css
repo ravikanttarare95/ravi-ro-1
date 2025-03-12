@@ -48,7 +48,7 @@ body {
 }
 #brand-logo {
   margin-right: 5px;
-  filter: drop-shadow(1px 2px 2px  rgb(39, 72, 101));
+  filter: drop-shadow(1px 2px 2px rgb(39, 72, 101));
 }
 .nav-links {
   display: flex;
@@ -79,14 +79,52 @@ body {
   border-radius: 7px;
   color: #fff;
 }
-#nav-menu{
+#nav-menu {
   text-decoration: none;
-  color: rgb(39, 72, 101) ;
+  color: rgb(39, 72, 101);
 }
-
+/* .main-image-container {
+  position: relative;
+} */
+.main-image-container img {
+  width: 100%;
+  height: 100%;
+}
+/* .para-heading {
+  color: rgb(39, 72, 101);
+  font-weight: bold;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  position: absolute;
+  top: 250px;
+  left: 300px;
+}
+.para-heading-1 {
+  font-size: 2.3rem;
+  margin: 0;
+}
+.para-heading-2 {
+  font-size: 1.7rem;
+  margin: 0;
+}
+.para-heading-3 {
+  font-size: 1.8rem;
+  margin: 0;
+}
+#btn-main {
+  margin-top: 30px;
+  padding: 15px;
+  border: none;
+  border-radius: 3px;
+  background-color: rgb(39, 72, 101);
+  color: #fff;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 11px;
+  cursor: pointer;
+} */
+ 
 /* Mobile Device*/
 @media (max-width: 600px) {
-    .nav-links ul {
+  .nav-links ul {
     display: none;
   }
 }
