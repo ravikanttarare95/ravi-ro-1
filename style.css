@@ -200,13 +200,47 @@ body {
   padding: 5px;
   width: 214px;
 }
+.pricing-container {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.pricing-box {
+  border: 1px solid #928e8e;
+  padding: 20px;
+  width: 300px;
+  height: 275px;
+  text-align: center;
+}
+.duration {
+  font-size: 35px;
+}
+.dollar-symbol {
+  font-size: 25px;
+}
+.price {
+  font-size: 35px;
+  margin: 0 5px;
+}
+.price-content{
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.btn-get-started{
+  padding: 8px 20px;
+  border: 2px solid blue;
+  color: blue;
+}
 /* Mobile Device*/
 @media (max-width: 600px) {
   .nav-links ul {
     display: none;
   }
-  .input-container{
-    width: 409px;
+  .input-container {
+    width: 250px;
   }
 }
 /* Large Mobile Device*/
