@@ -48,16 +48,23 @@ body {
 }
 #brand-logo {
   margin-right: 5px;
-  filter: drop-shadow(1px 1px 1px blue);
+  filter: drop-shadow(1px 2px 2px  rgb(39, 72, 101));
+}
+.nav-links {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 .nav-links ul {
   list-style-type: none;
   display: flex;
   flex-direction: row;
   justify-content: center;
+  align-items: center;
   gap: 25px;
   margin: 0;
   padding: 0;
+  height: 50px;
 }
 .nav-links ul li a {
   text-decoration: none;
@@ -71,4 +78,42 @@ body {
   padding: 8px 15px;
   border-radius: 7px;
   color: #fff;
+}
+#nav-menu{
+  text-decoration: none;
+  color: rgb(39, 72, 101) ;
+}
+
+/* Mobile Device*/
+@media (max-width: 600px) {
+    .nav-links ul {
+    display: none;
+  }
+}
+
+/* Large Mobile Device*/
+@media (min-width: 601px) and (max-width: 768px) {
+  .nav-links ul {
+    display: none;
+  }
+}
+
+/* Tablet Device*/
+@media (min-width: 769px) and (max-width: 992px) {
+  #nav-menu {
+    display: none;
+  }
+}
+/* Laptop Device*/
+@media (min-width: 993px) and (max-width: 1024px) {
+  #nav-menu {
+    display: none;
+  }
+}
+
+/* Desktop Device*/
+@media (min-width: 1025px) {
+  #nav-menu {
+    display: none;
+  }
 }
