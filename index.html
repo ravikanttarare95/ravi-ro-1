@@ -71,41 +71,42 @@
                 let us know! We will do our best to implement and update it as soon ass possible.</p>
         </div>
     </div>
-    <div class="form">
+    <form class="form-container">
         <p>
-            WE'ARE HAPPY TO HEAR FROM YOU
+            WE'RE HAPPY TO HEAR FROM YOU
         </p>
-        <div>
-            <div><label for="EnterName">Name</label></div>
-            <div><input type="text" id="EnterName"></div>
+        <div class="input-container">
+            <label for="EnterName">Name</label>
+            <input class="inputfields" type="text" id="EnterName" placeholder="Your Name" required>
         </div>
-        <div>
-            <div><label for="EnterMail">Email</label></div>
-            <div><input type="mail" id="EnterMail"></div>
+        <div class="input-container">
+            <label for="EnterMail">Email</label>
+            <input class="inputfields" type="mail" id="EnterMail" placeholder="Your Address" required>
         </div>
-        <div>
-            <div><label for="find">How did you find us?</label></div>
-            <div><select name="find" id="find">
-                    <option value="friend">Friend</option>
-                    <option value="college">College</option>
-                    <option value="social-media">Social Media</option>
-                </select>
+        <div class="input-container">
+            <label for="find">How did you find us?</label>
+            <select class="find-us" name="find" id="find" required>
+                <option value="">Select</option>
+                <option value="friend">Friend</option>
+                <option value="college">College</option>
+                <option value="social-media">Social Media</option>
+                <option value="other">Other</option>
+            </select>
+
+        </div>
+        <div class="input-container">
+            <label for="newsletter">Newsletter</label>
+            <div class="inputfields"><input style="margin: 0;padding: 0;" type="checkbox" id="newsletter" required>Yes
             </div>
         </div>
-        <div>
-            <div><label for="newsletter">Newsletter</label></div>
-            <div><input type="checkbox" id="newsletter">Yes</div>
-        </div>
-        <div>
-            <div><label for="mesage">Drop us a line</label></div>
-            <div>
-                <textarea name="message" id="message" placeholder="your message"></textarea>
-                <button>
-                    send
-                </button>
+        <div class="input-container">
+            <label for="mesage">Drop us a line</label>
+            <div class="messase-description">
+                <textarea class="inputfields" name="message" id="message" placeholder="your message"></textarea>
+                <button>send</button>
             </div>
         </div>
-    </div>
+    </form>
     <script src="https://kit.fontawesome.com/40a9124f1b.js" crossorigin="anonymous"></script>
 </body>
 
